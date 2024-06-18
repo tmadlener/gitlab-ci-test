@@ -3,5 +3,6 @@ do-something:
     - k8-cvmfs
   image: registry.cern.ch/ghcr.io/key4hep/key4hep-images/alma9:latest
   script:
-    source /cvmfs/sw-nightlies.hsf.org/key4hep/setup.sh
-    podio-dump --version
+    - source /cvmfs/sw-nightlies.hsf.org/key4hep/setup.sh
+    - podio-dump --version
+    - root-config --version
