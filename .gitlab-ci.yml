@@ -1,9 +1,9 @@
 do-something:
-  stage: step1
+  stage: build
   script:
-    - echo "Hello from step 1"
+    - echo "Hello from build"
 
 do-something-else:
-  stage: step2
+  stage: test
   script:
-    - echo "Hello from step 2"
+    - echo "Hello from test"
