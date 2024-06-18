@@ -2,6 +2,7 @@ do-something:
   stage: build
   script:
     - echo "Hello from build"
+    - echo "Hello hello hello"
 
 do-something-else:
   stage: test
